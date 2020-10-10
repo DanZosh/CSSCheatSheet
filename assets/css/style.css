@@ -32,21 +32,25 @@ article{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 
 
 }
 
 .card {
 
-  width: 25%;
   height: 250px;
   margin: 10px;
   padding: 10px;
 
 }
 
-.purplebox{
-
+h1{
+color: var(--tpcolor);
+border: 2px solid grey;
+}
+.purple-box{
+background-color: var(--bpcolor);
 }
 
 footer {
@@ -56,6 +60,7 @@ footer {
   main,
   nav {
     flex-direction: column;
+
   }
 }
 @media screen and (max-width: 768px) {
