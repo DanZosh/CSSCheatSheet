@@ -2,12 +2,15 @@
   --bgcolor: #323840;
   --tpcolor:#974f9f;
   --bpcolor: #6C4674;
+  --pgradient: background-image: linear-gradient ()
 
 
 }
 
 body {
   background-color: var(--bgcolor);
+  color: #fff;
+  width: auto;
   
 }
 
@@ -27,11 +30,18 @@ article{
 
 .container{
   display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 
 }
 
 .card {
+
+  width: 25%;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
 
 }
 
